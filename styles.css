@@ -19,8 +19,7 @@ body
 {
     width: 100%;
     min-height: 100vh;
-    background: url(https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-frost.png);
-    background-position: center center;
+    background: url(https://wallpaperaccess.com/full/1489353.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 15vh; 
@@ -32,6 +31,7 @@ body
     background-color: white;
     width: 60vw;
     min-width: 400px;
+    max-width: 600px;
     height: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -60,7 +60,7 @@ body
     margin-left: 2%;
     padding: 10px;
     width: 100%;
-    color: #000080;
+    color: black;
 }
 
 .line
@@ -97,13 +97,13 @@ input
 
 button
 {
-    opacity: 1;
+    
     border: none;
     outline: none;
     padding: 10px 50px;
     border-radius: 30px;
-    background: #000080;
-    color: white;
+    background: wheat;
+    color: black;
     font-family: 'Poppins',sans-serif;
     font-size: 14px;
     
@@ -139,8 +139,8 @@ ul li
     margin-top: 10px;
     cursor: pointer;
     position: relative;
-    background: #000080;
-    color: white;
+    background: wheat;
+    color: black;
     border-radius: 10px;
 }
 
@@ -188,7 +188,7 @@ ul li span:hover
 p, a
 {
     font-family: 'Courier New', Courier, monospace;
-    color: #000080;
+    color: black;
     text-align: center;
     font-weight: 700;
 }
