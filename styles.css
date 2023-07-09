@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Fasthand';
+    src: url(fonts/Fasthand/Fasthand-Regular.ttf);
+}
+@font-face {
+    font-family: 'DancingScripts';
+    src: url(fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+body
+{
+    width: 100%;
+    min-height: 100vh;
+    background: url(https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-frost.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15vh; 
+    padding-bottom: 15vh;
+}
+
+.container
+{
+    background-color: white;
+    width: 60vw;
+    min-width: 400px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    
+}
+
+.top
+{
+    color: black;
+    height: 60px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.top h2
+{
+    display: inline-block;
+    font-family: 'DancingScripts', sans-serif;
+    font-size: 35px;
+}
+
+.app_title
+{
+    margin-left: 2%;
+    padding: 10px;
+    width: 100%;
+    color: #000080;
+}
+
+.line
+{
+    height: 2px;
+    background-color: black;
+    border-color: black;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row
+{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-radius: 30px;
+   padding-left: 2.5%;
+   padding-right: 2.5%;
+   margin-top: 5px;
+   
+}
+
+input
+{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+}
+
+button
+{
+    opacity: 1;
+    border: none;
+    outline: none;
+    padding: 10px 50px;
+    border-radius: 30px;
+    background: #000080;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    
+}
+
+button:hover
+{
+    cursor: pointer; 
+}
+
+ul
+{
+    position: relative;
+    top: 0px;
+    bottom: 5%;
+    overflow-y: auto;
+    height: 570px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+ul li
+{
+    list-style: none;
+    font-size: 17px;
+    user-select: none;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 10px;
+    cursor: pointer;
+    position: relative;
+    background: #000080;
+    color: white;
+    border-radius: 10px;
+}
+
+ul li:before /*before the task*/
+{
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-image: url(icons/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 10px;
+}
+
+ul li.checked
+{
+    text-decoration: line-through;
+}
+
+ul li.checked:before /*before the task*/
+{
+    background-image: url(icons/checked.png);
+}
+
+ul li span
+{
+    position: absolute;
+    right: 10px;
+    top: 7.5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+ul li span:hover
+{
+    background: red;
+
+}
+
+p, a
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: #000080;
+    text-align: center;
+    font-weight: 700;
+}
